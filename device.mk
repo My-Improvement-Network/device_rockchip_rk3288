@@ -19,8 +19,8 @@ ASUS_TARGET_DEVICE := ASUS_TINKERBOARD
 PRODUCT_PACKAGES += \
     memtrack.$(TARGET_BOARD_PLATFORM) \
     WallpaperPicker \
-    Launcher3 \
-    Lightning
+    Launcher3# \
+#    Lightning
 
 #$_rbox_$_modify_$_zhengyang: add displayd
 PRODUCT_PACKAGES += \
